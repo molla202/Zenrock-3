@@ -1,0 +1,723 @@
+{
+  "genesis_time": "2025-01-20T08:37:06.747941806Z",
+  "chain_id": "gardia-3",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {
+      "app": "0"
+    },
+    "abci": {
+      "vote_extensions_enable_height": "1"
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen15u5d8jlxayhnkg9dmac67unkph3rkgyt3a8yzc",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen13pk95dxzpfzt5pftaeszv8yrd2lulxy9ztdmsw",
+          "pub_key": null,
+          "account_number": "1",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1tvftcxj7xrmdzdue2sutpjtpd26d8pj50t36ev",
+          "pub_key": null,
+          "account_number": "2",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1dr6z8h7mkf2yztvp34jyndrcrcyqqy0jgejwk7",
+          "pub_key": null,
+          "account_number": "3",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "zen1ynn2ljtzw8kwy80rldpmk3lh8llqvmrvrgqqh7",
+          "pub_key": null,
+          "account_number": "4",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "address": "zen1m3h30wlvsf8llruxtpukdvsy0km2kum8ju4et3",
+            "pub_key": null,
+            "account_number": "5",
+            "sequence": "0"
+          },
+          "name": "mint",
+          "permissions": [
+            "burner",
+            "minter"
+          ]
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "zen1ynn2ljtzw8kwy80rldpmk3lh8llqvmrvrgqqh7",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen1tvftcxj7xrmdzdue2sutpjtpd26d8pj50t36ev",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen1dr6z8h7mkf2yztvp34jyndrcrcyqqy0jgejwk7",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen13pk95dxzpfzt5pftaeszv8yrd2lulxy9ztdmsw",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen15u5d8jlxayhnkg9dmac67unkph3rkgyt3a8yzc",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "916000000000000"
+            }
+          ]
+        },
+        {
+          "address": "zen1m3h30wlvsf8llruxtpukdvsy0km2kum8ju4et3",
+          "coins": [
+            {
+              "denom": "urock",
+              "amount": "80000000000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "urock",
+          "amount": "1000000000000000"
+        }
+      ],
+      "denom_metadata": [
+        {
+          "description": "The native staking token of the Zenrock blockchain",
+          "denom_units": [
+            {
+              "denom": "urock",
+              "exponent": 0,
+              "aliases": [
+                "microrock"
+              ]
+            },
+            {
+              "denom": "rock",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "urock",
+          "display": "rock",
+          "name": "ROCK",
+          "symbol": "ROCK"
+        }
+      ],
+      "send_enabled": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "circuit": {
+      "account_permissions": [],
+      "disabled_type_urls": []
+    },
+    "consensus": null,
+    "crisis": {
+      "constant_fee": {
+        "denom": "urock",
+        "amount": "1000000000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.000000000000000000",
+        "bonus_proposer_reward": "0.000000000000000000",
+        "withdraw_addr_enabled": false
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "feeibc": {
+      "identified_fees": [],
+      "fee_enabled_channels": [],
+      "registered_payees": [],
+      "registered_counterparty_payees": [],
+      "forward_relayers": []
+    },
+    "genutil": {
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/zrchain.validation.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator-2",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "zenvaloper1tvftcxj7xrmdzdue2sutpjtpd26d8pj5924m2k",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "14b/iprg89ZhUyYJlAoRzBTg1hMx8y5zT9sIJiJltzk="
+                },
+                "value": {
+                  "denom": "urock",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "05d1156686df3d1e5755e5f8a0622b607f73026e@192.168.0.4:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Aov78EEodtm4yx9h5ParQ6xMwhGI6ww+3Q630OwQcO4F"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "8rjVSQ7VaJSEneT0aKgWpofCCYIMkiyRM0iIoAAtOSlNnAanGyqyFAMljCxDEEUJRuVS22o/c6l39+1F2/xIdw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/zrchain.validation.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator-4",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "zenvaloper1ynn2ljtzw8kwy80rldpmk3lh8llqvmrvffypyy",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "aEOXF7nvFzWBCBiTZmT+KQg63CEhT1mOwj0PqCef9Mo="
+                },
+                "value": {
+                  "denom": "urock",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "067afda8507528e6faf007a578b60119adc0c924@192.168.0.4:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AlS6MbhYrMl4+sWOikTn7TJksEgNQBWvTr3RrpfIWK1J"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "Nnx2EbwOdWcrJmXp4fp93lZq7NnHcgrXVm1Yfzb0tWJxo9LqY28isgWTRSqnDSLR9qXblC/qdMCAUZkPZaGLOw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/zrchain.validation.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator-3",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "zenvaloper1dr6z8h7mkf2yztvp34jyndrcrcyqqy0jzck09y",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "io5iZtiAn8oo9DmwDeEIeGVb6XhhcbYfr7fmTTrC1/g="
+                },
+                "value": {
+                  "denom": "urock",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "1b072dbbbbbf97eff9ed8fdb3eab32d4c2fc7c5a@192.168.0.4:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AhZH1IrakFOZ3REeq1tJNmyGD+Glbht1tACWVfbHvz21"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "qRLySDmYXrKhPDkpgxqYxPM2WHwOhed2jbiMynKAQX8iVcxGm5PrABqRQ8eTlUqcXn58TVBYfzsXreqogrIhLQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/zrchain.validation.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator-1",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "zenvaloper13pk95dxzpfzt5pftaeszv8yrd2lulxy9g2f6r5",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "JPeWhivUG0JpBB2N0QTb3e7flypsAPKAMrMoZ1W+Sro="
+                },
+                "value": {
+                  "denom": "urock",
+                  "amount": "1000000000000"
+                }
+              }
+            ],
+            "memo": "b5255f5b0b4758d39f1ba30b56729a686a4b2ea4@192.168.0.4:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A7/QqaVMdkb7ZFHJp17MTPzFof3kStBDzGz+cE6yCph1"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "na8A/3tNGdJ2YPMCXbu+2lF6L5Z7a+HKvriSL8/0u2ovOcafXor7a47HwbpkKNAXpvv8HMu+eApDvbvnRQNKsw=="
+          ]
+        }
+      ]
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": null,
+      "voting_params": null,
+      "tally_params": null,
+      "params": {
+        "min_deposit": [
+          {
+            "denom": "urock",
+            "amount": "1000000000"
+          }
+        ],
+        "max_deposit_period": "172800s",
+        "voting_period": "21600s",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000",
+        "min_initial_deposit_ratio": "0.000000000000000000",
+        "proposal_cancel_ratio": "0.500000000000000000",
+        "proposal_cancel_dest": "",
+        "expedited_voting_period": "7200s",
+        "expedited_threshold": "0.667000000000000000",
+        "expedited_min_deposit": [
+          {
+            "denom": "urock",
+            "amount": "5000000000"
+          }
+        ],
+        "burn_vote_quorum": false,
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_veto": true,
+        "min_deposit_ratio": "0.010000000000000000"
+      },
+      "constitution": ""
+    },
+    "group": {
+      "group_seq": "0",
+      "groups": [],
+      "group_members": [],
+      "group_policy_seq": "0",
+      "group_policies": [],
+      "proposal_seq": "0",
+      "proposals": [],
+      "votes": []
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "*"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0",
+        "params": {
+          "upgrade_timeout": {
+            "height": {
+              "revision_number": "0",
+              "revision_height": "0"
+            },
+            "timestamp": "600000000000"
+          }
+        }
+      }
+    },
+    "identity": {
+      "keyrings": [
+        {
+          "address": "keyring1k6vc6vhp6e6l3rxalue9v4ux",
+          "creator": "zen15u5d8jlxayhnkg9dmac67unkph3rkgyt3a8yzc",
+          "description": "Zenrock MPC",
+          "admins": [
+            "zen15u5d8jlxayhnkg9dmac67unkph3rkgyt3a8yzc"
+          ],
+          "parties": [],
+          "party_threshold": 3,
+          "key_req_fee": "75000000",
+          "sig_req_fee": "50000000",
+          "is_active": true
+        }
+      ],
+      "params": {
+        "keyring_creation_fee": "10000000000"
+      },
+      "port_id": "identity",
+      "workspaces": []
+    },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "ports": [],
+        "params": {
+          "controller_enabled": true
+        }
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "port": "icahost",
+        "params": {
+          "host_enabled": true,
+          "allow_messages": [
+            "*"
+          ]
+        }
+      }
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.000000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "urock",
+        "inflation_rate_change": "0.000000000000000000",
+        "inflation_max": "0.000000000000000000",
+        "inflation_min": "0.000000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "nft": {
+      "classes": [],
+      "entries": []
+    },
+    "params": null,
+    "policy": {
+      "params": {
+        "minimum_btl": "10",
+        "default_btl": "1000"
+      },
+      "port_id": "policy",
+      "policies": [],
+      "actions": [],
+      "sign_methods": []
+    },
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.005000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      },
+      "total_escrowed": []
+    },
+    "treasury": {
+      "params": {
+        "mpc_keyring": "",
+        "zr_sign_address": "",
+        "keyring_commission": 10,
+        "keyring_commission_destination": "zen1m3h30wlvsf8llruxtpukdvsy0km2kum8ju4et3",
+        "min_gas_fee": "0.0001urock"
+      },
+      "port_id": "treasury",
+      "keys": [],
+      "key_requests": [],
+      "sign_requests": [],
+      "sign_tx_requests": [],
+      "ica_tx_requests": []
+    },
+    "upgrade": {},
+    "validation": {
+      "params": {
+        "unbonding_time": "1209600s",
+        "max_validators": 75,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "urock",
+        "min_commission_rate": "0.050000000000000000"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false,
+      "HVParams": {
+        "AVSRewardsRate": "0.00",
+        "BlockTime": 5,
+        "ZenBTCParams": {
+          "zenBTCEthContractAddr": "",
+          "zenBTCDepositKeyringAddr": "",
+          "zenBTCMinterKeyID": 0
+        }
+      }
+    },
+    "vesting": {},
+    "wasm": {
+      "params": {
+        "code_upload_access": {
+          "permission": "Nobody",
+          "addresses": []
+        },
+        "instantiate_default_permission": "Nobody"
+      },
+      "codes": [],
+      "contracts": [],
+      "sequences": []
+    },
+    "zenbtc": {
+      "params": {}
+    }
+  }
+}
