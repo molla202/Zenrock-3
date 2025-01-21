@@ -5,7 +5,8 @@
 
 <h1 align="center"> Zenrock
 
-![image](https://github.com/Core-Node-Team/Testnet-TR/assets/91562185/9d9b2b64-736b-4921-aa50-ae87f6d8d34b)
+
+![image](https://github.com/user-attachments/assets/6874e9ae-034d-4d9b-b93b-aab60756234e)
 
 
 </h1>
