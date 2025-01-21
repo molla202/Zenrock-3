@@ -64,7 +64,7 @@ chmod +x $HOME/zenrockd
 ```
 ```
 mkdir -p $HOME/.zrchain/cosmovisor/genesis/bin
-mv /root/elys/build/elysd $HOME/.zrchain/cosmovisor/genesis/bin/zenrockd
+mv $HOME/zenrockd $HOME/.zrchain/cosmovisor/genesis/bin/zenrockd
 ```
 ### 🚧System link
 ```
