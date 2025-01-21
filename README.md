@@ -204,7 +204,7 @@ echo "{\"pubkey\":{\"@type\":\"/cosmos.crypto.ed25519.PubKey\",\"key\":\"$(zenro
     \"min-self-delegation\": \"1\"
 }" > validator.json
 # Create a validator using the JSON configuration
-zenrockd tx staking create-validator validator.json \
+zenrockd tx validation create-validator validator.json \
     --from $WALLET \
     --chain-id gardia-3 \
 	--fees 500000urock
