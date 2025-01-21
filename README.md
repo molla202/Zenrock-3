@@ -55,14 +55,17 @@ echo "export ZENROCK_CHAIN_ID="gardia-3"" >> $HOME/.bash_profile
 echo "export ZENROCK_PORT="56"" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
+```
 cd $HOME
 wget -O zenrockd.zip https://github.com/Zenrock-Foundation/zrchain/releases/download/v5.5.0/zenrockd.zip
 unzip zenrockd.zip
 rm zenrockd.zip
 chmod +x $HOME/zenrockd
-
+```
+```
 mkdir -p $HOME/.zrchain/cosmovisor/genesis/bin
 mv /root/elys/build/elysd $HOME/.zrchain/cosmovisor/genesis/bin/zenrockd
+```
 ### 🚧System link
 ```
 sudo ln -s $HOME/.zrchain/cosmovisor/genesis $HOME/.zrchain/cosmovisor/current -f
