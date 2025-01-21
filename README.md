@@ -69,7 +69,7 @@ mv $HOME/zenrockd $HOME/.zrchain/cosmovisor/genesis/bin/zenrockd
 ### 🚧System link
 ```
 sudo ln -s $HOME/.zrchain/cosmovisor/genesis $HOME/.zrchain/cosmovisor/current -f
-sudo ln -s $HOME/.zrchain/cosmovisor/current/bin/zenrockd /usr/local/bin/elysd -f
+sudo ln -s $HOME/.zrchain/cosmovisor/current/bin/zenrockd /usr/local/bin/zenrockd -f
 ```
 ### 🚧Cosmovisor indirelim
 ```
