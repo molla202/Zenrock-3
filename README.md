@@ -52,7 +52,7 @@ source $HOME/.bash_profile
 ### 🚧Dosyaları çekelim
 ```
 echo "export ZENROCK_CHAIN_ID="gardia-3"" >> $HOME/.bash_profile
-echo "export ZENROCK_PORT="69"" >> $HOME/.bash_profile
+echo "export ZENROCK_PORT="51"" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
 ```
