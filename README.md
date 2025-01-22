@@ -16,7 +16,13 @@
  * [Topluluk Twitter](https://twitter.com/corenodeHQ)<br>
 
 
+### Explorer And Public Rpc Api
 
+https://explorer.corenodehq.com/Zenrock-Testnet/staking
+
+https://zenrock-api.corenode.info
+
+https://zenrock-rpc.corenode.info
 
 ## 💻 Sistem Gereksinimleri
 | Bileşenler | Minimum Gereksinimler | 
